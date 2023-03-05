@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set the value as "Dane"
+// We write a create a conditional 
+// if the value of 'name' matches 'Mary'. We console.log 'Hi, Mary!'
+// if the value of 'name' does not match. We console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,7 +45,7 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
+// We make a variable called 'secret'
 // 
 // 
 //
