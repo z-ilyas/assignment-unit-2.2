@@ -45,9 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We make a variable named 'secret' and a conditional that
-// if the value of 'code' matches '123'. We assign the value 'super' to the variable 'secret' and we multply the value of 'code' by 2. 
-// if the value of 'code' is greater than 250. We assign the value 'duper' to the variable 'secret' 
+// We make a variable named 'secret' and we set the value as "super' if the code matches 123. If the code is more than 250, set the value as 'duper'
+// We then make another variable called code and set the value at '123'. We then make a conditional that says
+// if the value of 'code' matches '123'. We write the variable secret and assign  the value 'super' and then we multply the value of 'code' by 2. 
+// if the value of 'code' is greater than 250. We write the variable secret and assign the value 'duper'.
 // console.log 'secret' after the conditional has run.
 
 //CODE
@@ -72,7 +73,7 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // We make a variable named 'isStudent' and set a boolean value. We create a varialble named 'age' and set the value '34'.We create a variable name 'zip' and set the value as '55407'. 
 // We create a conditional if the variable 'isStudent' is 'true' and the variable 'zip' value is greater than '80000'. We console.log 'You're a student on the West Coast!'.
-// If the variable 'isStudent' is 'false' and the variable 'age' is less than '30'. We console.log 'What are your hobbies?'. If the variable 'isStudent' is 'true' then we console.log 'Welcome to Prime!'.
+// If the variable 'isStudent' is 'false' or the variable 'age' is less than '30'. We console.log 'What are your hobbies?'. If the variable 'isStudent' is 'true' then we console.log 'Welcome to Prime!'.
 // If it's not true console.log 'How about the weather?'.
 
 //CODE
@@ -158,8 +159,9 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
-//FIX - the variable 'minAge' was set as a constant. They used <= instead of >= as the instructions asked for greater than or equal to. 
-//They also console.log 'no entry' instead of 'enter' and there was no more conditional after that. So the code should have stopped there. 
+//FIX - The assigment asked for a variable instead of a constant. 
+//The if conditionals makes it so that if even the age is 21, there will be 'no entry.' due to it being first on the if conditional. 
+//To correct this, console.log('enter') should be written first. 
 
 /*
 let age = 21;
